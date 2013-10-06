@@ -1,0 +1,27 @@
+.section {
+	background: #111;
+	color: #ddd;
+	float: left;
+	font-family: Helvetica;
+	font-size: 1em;
+}
+
+.left-column, .right-column {
+	float: left;
+	padding: 5% 0;
+	width: 37.5%;
+}
+
+.left-column {
+	padding-left: 10%;
+	padding-right: 2.5%;
+}
+
+.right-column {
+	padding-right: 10%;
+	padding-right: 2.5%;
+}
+
+.intro {
+	margin-top: 45%;
+}

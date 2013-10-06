@@ -1,0 +1,46 @@
+span#title {
+	font-size: 1em;
+	text-transform: uppercase;
+	width: 35%;
+	height: 6em;
+}
+
+span#title p {
+	margin-top: 1.7em;
+}
+
+span#title p b {
+	display: block;
+	font-size: 1.4em;
+}
+
+ul.nav {
+	float: right;
+	width: 65%;
+}
+
+ul.nav li {
+	display: inline-block;
+	line-height: 6em;
+	width: 25%;
+}
+
+span#title, ul.nav li {
+	background: #1f1f1f;
+	border-bottom: 3px solid #aa0000;
+	color: #fff;
+	float: left;
+	list-style: none;
+	text-align: center;
+	transition: 0.2s all linear;
+}
+
+span#title:hover, ul.nav li:hover {
+	background: #0d0d0d;
+	border-bottom: 3px solid red;
+}
+
+div.gallery img {
+	float: left;
+	width: 33%;
+}

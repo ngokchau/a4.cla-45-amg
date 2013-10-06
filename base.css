@@ -1,0 +1,22 @@
+/* CSS Resets */
+html, body, div, img, form, 
+nav, header, footer,
+input, button, ol, ul, li,
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background: fixed url("images/cla-45-amg-seats.jpg") no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	font-family: Cambria;
+	font-size: 100%;
+	height: 100%;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
