@@ -1,4 +1,4 @@
-@media screen (min-width: 1600px) {
+@media screen and (min-width: 1600px) {
 	div.gallery .holder {
 		float: left;
 		width: 25%;
@@ -9,7 +9,7 @@
 	}
 }
 
-@media screen (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
 	div.gallery .holder {
 		float: left;
 		width: 50%;
@@ -20,7 +20,13 @@
 	}
 }
 
-@media screen (max-width: 800px) {
+@media screen and (max-width: 800px) {
+	html {
+		background: scroll url("images/cla-45-amg-seats.jpg") no-repeat 0 30%;
+		-webkit-background-size: 100%;
+		background-size: 100%;
+	}
+
 	.left-column, .right-column {
 		padding: 5%;
 		width: 90%;
@@ -36,13 +42,7 @@
 	}
 }
 
-@media screen (max-width: 640px) {
-	html {
-		background: scroll url("images/cla-45-amg-seats.jpg") no-repeat 0 30%;
-		-webkit-background-size: 120%;
-		background-size: 120%;
-	}
-
+@media screen and (max-width: 640px) {
 	span#title {
 		width: 100%;
 	}
