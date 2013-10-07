@@ -1,4 +1,4 @@
-@media screen and (min-width: 1600px) {
+@media (min-width: 1600px) {
 	div.gallery .holder {
 		float: left;
 		width: 25%;
@@ -9,7 +9,7 @@
 	}
 }
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
 	div.gallery .holder {
 		float: left;
 		width: 50%;
@@ -20,7 +20,7 @@
 	}
 }
 
-@media screen and (max-width: 800px) {
+@media (max-width: 800px) {
 	html {
 		background: scroll url("images/cla-45-amg-seats.jpg") no-repeat 0 25%;
 		-webkit-background-size: 100%;
@@ -42,7 +42,7 @@
 	}
 }
 
-@media screen and (max-width: 640px) {
+@media (max-width: 640px) {
 	span#title {
 		width: 100%;
 	}
