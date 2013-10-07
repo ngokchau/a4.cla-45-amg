@@ -1,12 +1,14 @@
 span#title {
 	font-size: 1em;
+	margin: 0;
 	text-transform: uppercase;
 	width: 35%;
 	height: 6em;
+	vertical-align: middle;
 }
 
 span#title p {
-	margin-top: 1.7em;
+	margin-top: 1.5em;
 }
 
 span#title p b {
@@ -20,9 +22,18 @@ ul.nav {
 }
 
 ul.nav li {
-	display: inline-block;
+	display: inline;
 	line-height: 6em;
 	width: 25%;
+	height: 6em;
+}
+
+span#title:hover,
+span#title.active,
+ul.nav li:hover,
+ul.nav li.active {
+	background: #0d0d0d;
+	border-bottom: 3px solid red;
 }
 
 span#title, ul.nav li {
@@ -32,15 +43,16 @@ span#title, ul.nav li {
 	float: left;
 	list-style: none;
 	text-align: center;
-	transition: 0.2s all linear;
+	transition: 0.2s all ease-in;
 }
 
-span#title:hover, ul.nav li:hover {
-	background: #0d0d0d;
-	border-bottom: 3px solid red;
-}
-
-div.gallery img {
+div.gallery .holder {
 	float: left;
 	width: 33%;
+}
+
+div.gallery .holder img {
+	float: left;
+	width: 100%;
+	max-width: 100%;
 }

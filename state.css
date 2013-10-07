@@ -1,0 +1,37 @@
+@media (min-width: 1600px) {
+	div.gallery .holder {
+		float: left;
+		width: 25%;
+	}
+
+	div.gallery .holder:last-child {
+		display: none;
+	}
+}
+
+@media (max-width: 1024px) {
+	div.gallery .holder {
+		float: left;
+		width: 50%;
+	}
+
+	div.gallery .holder:last-child {
+		display: none;
+	}
+}
+
+@media (max-width: 800px) {
+	.left-column, .right-column {
+		padding: 5%;
+		width: 90%;
+	}
+
+	div.gallery .holder {
+		float: left;
+		width: 33%;
+	}
+
+	div.gallery .holder:last-child {
+		display: inline;
+	}
+}
