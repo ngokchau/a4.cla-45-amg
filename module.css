@@ -55,4 +55,10 @@ div.gallery .holder img {
 	float: left;
 	width: 100%;
 	max-width: 100%;
+	opacity: 0.8;
+	/*transition: 0.2s all ease-in;*/
+}
+
+div.gallery .holder img:hover {
+	opacity: 1;
 }
