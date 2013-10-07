@@ -66,6 +66,11 @@ div.gallery .holder img:hover {
 	opacity: 1;
 }
 
+/* Section */
+.section p {
+	font-size: 1em;
+}
+
 /* Footer */
 .footer {
 	text-align: center;
