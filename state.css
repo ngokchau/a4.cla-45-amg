@@ -22,12 +22,12 @@
 
 @media screen and (max-width: 800px) {
 	html {
-		background: scroll url("images/cla-45-amg-seats.jpg") no-repeat 0 30%;
+		background: scroll url("images/cla-45-amg-seats.jpg") no-repeat 0 25%;
 		-webkit-background-size: 100%;
 		background-size: 100%;
 	}
 
-	.left-column, .right-column {
+	.left, .right, .full {
 		padding: 5%;
 		width: 90%;
 	}

@@ -1,3 +1,4 @@
+/* Logo title */
 span#title {
 	font-size: 1em;
 	margin: 0;
@@ -16,6 +17,7 @@ span#title p b {
 	font-size: 1.4em;
 }
 
+/* Navigation */
 ul.nav {
 	float: right;
 	width: 65%;
@@ -23,9 +25,10 @@ ul.nav {
 
 ul.nav li {
 	display: inline;
-	line-height: 6em;
+	font-size: 1.25em;
+	line-height: 4.75em;
 	width: 25%;
-	height: 6em;
+	height: 4.8em;
 }
 
 span#title:hover,
@@ -46,6 +49,7 @@ span#title, ul.nav li {
 	transition: 0.2s all ease-in;
 }
 
+/* Gallery */
 div.gallery .holder {
 	float: left;
 	width: 33%;
@@ -56,9 +60,13 @@ div.gallery .holder img {
 	width: 100%;
 	max-width: 100%;
 	opacity: 0.8;
-	/*transition: 0.2s all ease-in;*/
 }
 
 div.gallery .holder img:hover {
 	opacity: 1;
+}
+
+/* Footer */
+.footer {
+	text-align: center;
 }

@@ -2,24 +2,35 @@
 	background: #111;
 	color: #ddd;
 	float: left;
+	width: 100%;
 }
 
-.left-column, .right-column {
+.column {
 	float: left;
-	padding: 5% 0;
+	padding: 0 0 5% 0;
+}
+
+.full {
+	width: 75%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.left, .right {
 	width: 37.5%;
 }
 
-.left-column {
+.left {
 	padding-left: 10%;
 	padding-right: 2.5%;
 }
 
-.right-column {
+.right {
 	padding-right: 10%;
 	padding-right: 2.5%;
 }
 
 .intro {
 	margin-top: 45%;
+	padding-top: 5%;
 }
