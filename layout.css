@@ -11,9 +11,8 @@
 }
 
 .full {
-	width: 75%;
+	width: 80%;
 	padding-left: 10%;
-	padding-right: 10%;
 }
 
 .left, .right {
@@ -27,7 +26,7 @@
 
 .right {
 	padding-right: 10%;
-	padding-right: 2.5%;
+	padding-left: 2.5%;
 }
 
 .intro {
