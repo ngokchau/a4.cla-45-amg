@@ -1,18 +1,17 @@
 /* Logo title */
-span#title {
+a#title {
 	font-size: 1em;
 	margin: 0;
 	text-transform: uppercase;
 	width: 35%;
 	height: 6em;
-	vertical-align: middle;
 }
 
-span#title p {
+a#title p {
 	margin-top: 1.5em;
 }
 
-span#title p b {
+a#title p b {
 	display: block;
 	font-size: 1.4em;
 }
@@ -23,23 +22,22 @@ ul.nav {
 	width: 65%;
 }
 
-ul.nav li {
-	display: inline;
+ul.nav li a {
 	font-size: 1.25em;
 	line-height: 4.75em;
 	width: 25%;
 	height: 4.8em;
 }
 
-span#title:hover,
-span#title.active,
-ul.nav li:hover,
-ul.nav li.active {
+a#title:hover,
+a#title.active,
+ul.nav li a:hover,
+ul.nav li a.active {
 	background: #0d0d0d;
 	border-bottom: 3px solid red;
 }
 
-span#title, ul.nav li {
+a#title, ul.nav li a {
 	background: #1f1f1f;
 	border-bottom: 3px solid #aa0000;
 	color: #fff;
