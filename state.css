@@ -43,7 +43,7 @@
 }
 
 @media screen and (max-width: 640px) {
-	span#title {
+	a#title {
 		width: 100%;
 	}
 
