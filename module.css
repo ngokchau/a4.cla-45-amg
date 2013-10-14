@@ -1,3 +1,10 @@
+/* Header */
+#header {
+	/*position: fixed;*/
+	width: 100%;
+	z-index: 9999;
+}
+
 /* Logo title */
 a#title {
 	font-size: 1em;
@@ -18,7 +25,7 @@ a#title p b {
 
 /* Navigation */
 ul.nav {
-	float: right;
+	float: left;
 	width: 65%;
 }
 
