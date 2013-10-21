@@ -1,0 +1,33 @@
+@import "variables.less";
+
+.section {
+	background: @bg;
+	float: left;
+	width: 100%;
+
+	&:nth-child(2) {
+		margin-top: 45%;
+		padding-top: 5%;
+	}
+}
+
+.full {
+	width: @full;
+	padding: 0 @side 5% @side;
+}
+
+.left, .right {
+	float: left;
+	width: 37.5%;
+	padding: 0 @side/4 5% @side/4;
+}
+
+.left {
+	padding-left: @side;
+	padding-right: @side/4;
+}
+
+.right {
+	padding-right: @side;
+	padding-left: @side/4;
+}

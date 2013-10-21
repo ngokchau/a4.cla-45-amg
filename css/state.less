@@ -1,0 +1,69 @@
+@import "variables.less";
+
+/* Parametric Mixins */
+.holder(@width, @display) {
+	float: left;
+	width: @width;
+
+	&:last-child {
+		display: @display;
+	}
+}
+
+.bg(@pos) {
+	background: scroll url("../images/cla-45-amg-seats.jpg") no-repeat @pos;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+
+/* 	For (width > 1600px)
+ *	The image holder (width = 25%) of column; fist 4 per row.
+ */
+@media screen and (min-width: 1600px) {
+	div.gallery .holder {
+		.holder(25%, none);
+	}
+}
+
+/* 	For (width < 1024px)
+ *	The image holder (width = 50%) of column; fits 2 per row.
+ */
+@media screen and (max-width: 1024px) {
+	div.gallery .holder {
+		.holder(50%, none);
+	}
+}
+
+/* 	For (width < 800px)
+ *	Background now scrolls with page; 5em from top.
+ *	All column types are full.
+ *	The image holder (width = 33%) of column; fits 3 per row.
+ */
+@media screen and (max-width: 800px) {
+	html {
+		.bg(0 5em);
+	}
+
+	.left, .right, .full {
+		padding: 5%;
+		width: 90%;
+	}
+
+	div.gallery .holder {
+		.holder(33%, block);
+	}
+}
+
+/* 	For (width < 640px)
+ *	Background now scrolls with page; 9em from top.
+ *	All column types are full.
+ */
+@media screen and (max-width: 640px) {
+	html {
+		.bg(0 9em);
+	}
+
+	a#title, ul.nav {
+		width: 100%;
+	}
+}

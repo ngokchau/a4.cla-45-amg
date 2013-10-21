@@ -1,0 +1,46 @@
+@import  "variables.less";
+
+/* CSS Resets */
+html, body, div, img, form, 
+nav, header, footer,
+input, button, ol, ul, li,
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background: fixed url("../images/cla-45-amg-seats.jpg") no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	font-family: Cambria;
+	font-size: 110%;
+	height: 100%;
+	.color(@bg);
+}
+
+body {
+	background: @bg;
+}
+
+a {
+	text-decoration: none;
+	.color(@bg);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Helvetica;
+}
+
+ul li {
+	list-style: none;
+}
+
+ol li {
+	list-style-position: inside;
+	margin: .5em 0;
+	
+	ol {
+		padding-left: 2em;
+	}
+}

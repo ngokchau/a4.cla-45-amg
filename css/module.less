@@ -1,0 +1,91 @@
+@import "variables.less";
+
+/* Mixins */
+.nav-base {
+	background: @bg;
+	border-bottom: 3px solid @accent;
+	float: left;
+	list-style: none;
+	text-align: center;
+	transition: 0.2s all ease-in;
+}
+.nav-active {
+	background: darken(@bg, 10%);
+	border-bottom: 3px solid lighten(@accent, 20%);
+}
+
+/* Header */
+#header {
+	width: 100%;
+	z-index: 9999;
+}
+
+/* Logo Title */
+a#title {
+	font-size: 1em;
+	margin: 0;
+	text-transform: uppercase;
+	width: 35%;
+	height: 6em;
+	.nav-base;
+
+	p {
+		margin-top: 1.5em;
+
+		b {
+			display: block;
+			font-size: 1.4em;
+		}
+	}
+
+	// Concatentation.
+	&.active, &:hover {
+		.nav-active;
+	}
+}
+
+/* Navigation	*/
+ul.nav {
+	float: left;
+	width: 65%;
+
+	li a {
+		font-size: 1.25em;
+		line-height: 4.75em;
+		width: 25%;
+		height: 4.8em;
+		.nav-base;
+
+		// Concatentation.
+		&.active, &:hover {
+			.nav-active;
+		}
+	}
+}
+
+/* Gallery */
+div.gallery .holder {
+	float: left;
+	width: 33%;
+
+	img {
+		float: left;
+		width: 100%;
+		max-width: 100%;
+		opacity: 0.8;
+	
+		&:hover {
+			opacity: 1;
+		}
+	}
+}
+
+/* Section */
+.section p {
+	font-size: 1em;
+}
+
+/* Footer */
+.footer {
+	text-align: center;
+}
