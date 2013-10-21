@@ -9,14 +9,3 @@
  */
 @full: 80%;				// Full column.
 @side: 10%;				// Side space.
-
-/*
- * Variable-dependent mixins.
- * Text color depends on the color of the background.
- */
-.color(@a) when (lightness(@a) >= 50%) {
-	color: #444;
-}
-.color(@a) when (lightness(@a) < 50%) {
-	color: #ddd;
-}

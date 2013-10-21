@@ -1,5 +1,17 @@
 @import  "variables.less";
 
+/* 
+ * Guarded mixins
+ * Variable-dependent mixins.
+ * Text color depends on the color of the background.
+ */
+.color(@a) when (lightness(@a) >= 50%) {
+	color: #444;
+}
+.color(@a) when (lightness(@a) < 50%) {
+	color: #ddd;
+}
+
 /* CSS Resets */
 html, body, div, img, form, 
 nav, header, footer,
